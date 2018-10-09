@@ -13,9 +13,12 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textViewId);
 
         textView.setVisibility(View.VISIBLE);
+
     }
 
     public void hideClicked(View view){
+        textView = (TextView) findViewById(R.id.textViewId);
+
         textView.setVisibility(View.INVISIBLE);
 
     }
